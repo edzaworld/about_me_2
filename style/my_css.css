@@ -1,0 +1,324 @@
+html {
+    max-width: 1400px;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+.all-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Inter";
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    display: flex;
+    min-height: 60px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 60px;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+/* menu-nav */
+.lang {
+    display: flex;
+    align-items: center;
+}
+
+.lang-choice {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.lang-link {
+    text-decoration: none;
+    color: #808080;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-link {
+    text-decoration: none;
+    padding: 0 20px;
+    color: #494949;
+}
+
+/* Title */
+.who-i-am {
+    display: flex;
+    margin-top: 100px;
+    padding: 0 60px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    min-height: 200px;
+}
+
+.title-text1 {
+    font-size: 64px;
+    animation: 3s show ease;
+}
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.title-text2 {
+    font-size: 64px;
+    color: #494949;
+    animation: 5s show2 ease;
+}
+@keyframes show2 {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/* Works */
+.my-works {
+    display: flex;
+    flex-direction: column;
+    margin: 150px 60px 0px 60px;
+}
+
+.my-works-title {
+    font-size: 16px;
+}
+
+.grey-text {
+    color: #808080;
+}
+
+.example {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.example-box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #F6F6F6;
+    margin-top: 20px;
+}
+
+.example-photo {
+    width: 500px;
+    height: 400px;
+}
+
+.example-text {
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
+.example-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* About me */
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 100px 60px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+}
+
+.about-me-title {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+}
+
+.about-me-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.my-photo {
+    width: 400px;
+    margin-top: 50px;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.about-me-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 18px;
+}
+
+/* my skills */
+.my-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.my-skills-title {
+    font-size: 24px;
+}
+
+.skills-container {
+    width: 400px;
+    background-color: #DDD;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+.my-skills-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    min-height: 200px;
+}
+
+.skills {
+    text-align: right;
+    padding-right: 20px;
+    color: #DDD;
+}
+
+.html {
+    width: 60%;
+    background-color: #218432;
+    border-radius: 5px;
+}
+
+.css {
+    width: 50%;
+    background-color: #2196F3;
+    border-radius: 5px;
+}
+
+/* contacts */
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 500px;
+}
+
+.contacts-box1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    width: 250px;
+    min-height: 200px;
+}
+
+.contacts-title {
+    font-size: 24px;
+}
+
+.contacts-text {
+    font-size: 18px;
+}
+
+.send-message {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.send-message:hover {
+    transform: scale(1.01);
+}
+.contacts-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100px;
+    text-align: center;
+}
+
+.text-bottom {
+    font-size: 16px;
+    color: #494949;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 60px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+}
+
+
+/* media */
+@media screen and (max-width: 1050px) {
+    .another {
+        display: none;
+    }
+    .about-me-text{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .title-text1 {
+        font-size: 32px;
+    }
+    .title-text2 {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 600px)  {
+    .header {
+        padding: 0;
+    }
+}
+
